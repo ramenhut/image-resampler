@@ -11,7 +11,7 @@ int main(int argc, char **argv)
                                    480, 
                                    &source_image ) ) )
     {
-        printf( "Error! Unable to create the source image.");
+        printf( "Error! Unable to create the source image." );
         return -1;
     }
 
@@ -24,7 +24,7 @@ int main(int argc, char **argv)
                                    0, 
                                    &resampled_image ) ) )
     {
-        printf( "Error! Unable to resample the source image.");
+        printf( "Error! Unable to resample the source image." );
         return -1;
     }
 
