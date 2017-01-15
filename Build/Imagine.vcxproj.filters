@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Operators">
+      <UniqueIdentifier>{a5e0a3c2-69cb-4f2a-81c5-3d450292de16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Kernels">
+      <UniqueIdentifier>{f895df29-b657-4be8-8644-643a20597b10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities">
+      <UniqueIdentifier>{a6312f92-2a1c-480a-9b44-375c3d984ed9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Base">
+      <UniqueIdentifier>{ec457516-fe2f-4007-8cda-0b85ad01b119}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Operators">
+      <UniqueIdentifier>{99b481a1-57a3-4427-ae03-1b025cb5c654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Kernels">
+      <UniqueIdentifier>{960a58f4-e3e8-46b0-a9f1-c1db56d0627e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{668e1fed-218e-4b9c-ad0a-399d440a7b5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Base">
+      <UniqueIdentifier>{e87b4783-ab1c-4310-b970-bf1442cf1704}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Source\Base\vnBase.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Base\vnHalf.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Base\vnImage.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Base\vnImageFormat.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Base\vnMath.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Utilities\vnImageBlock.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Utilities\vnImageSampler.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Operators\vnImageClone.h">
+      <Filter>Header Files\Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Operators\vnImageConvert.h">
+      <Filter>Header Files\Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Operators\vnImageResize.h">
+      <Filter>Header Files\Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Operators\vnImageScale.h">
+      <Filter>Header Files\Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Kernels\vnImageGaussian.h">
+      <Filter>Header Files\Kernels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Kernels\vnImageLanczos.h">
+      <Filter>Header Files\Kernels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Kernels\vnImageNearest.h">
+      <Filter>Header Files\Kernels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Kernels\vnImageSpline.h">
+      <Filter>Header Files\Kernels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Kernels\vnImageAverage.h">
+      <Filter>Header Files\Kernels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Kernels\vnImageBicubic.h">
+      <Filter>Header Files\Kernels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Kernels\vnImageBilinear.h">
+      <Filter>Header Files\Kernels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Kernels\vnImageCoverage.h">
+      <Filter>Header Files\Kernels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\vnImagine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\Base\vnHalf.cpp">
+      <Filter>Source Files\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Base\vnImage.cpp">
+      <Filter>Source Files\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Utilities\vnImageSampler.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Utilities\vnImageBlock.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Utilities\vnImageBlockPack.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Utilities\vnImageBlockUnpack.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Operators\vnImageScale.cpp">
+      <Filter>Source Files\Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Operators\vnImageConvert.cpp">
+      <Filter>Source Files\Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Operators\vnImageResize.cpp">
+      <Filter>Source Files\Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Kernels\vnImageGaussian.cpp">
+      <Filter>Source Files\Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Kernels\vnImageLanczos.cpp">
+      <Filter>Source Files\Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Kernels\vnImageNearest.cpp">
+      <Filter>Source Files\Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Kernels\vnImageSpline.cpp">
+      <Filter>Source Files\Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Kernels\vnImageAverage.cpp">
+      <Filter>Source Files\Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Kernels\vnImageBicubic.cpp">
+      <Filter>Source Files\Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Kernels\vnImageBilinear.cpp">
+      <Filter>Source Files\Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Kernels\vnImageCoverage.cpp">
+      <Filter>Source Files\Kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Tutorial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
