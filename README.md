@@ -35,8 +35,7 @@ Supported image formats may select between the following parameters:
 * Signed or unsigned
 
 The library uses a descriptive image format system, making it trivial to add new formats simply by inserting a valid new descriptor into the format list.
-
-The following image formats are supported out of the box:
+The library also provides support for converting between formats. The following image formats are supported out of the box:
 
 * R8
 * R16
